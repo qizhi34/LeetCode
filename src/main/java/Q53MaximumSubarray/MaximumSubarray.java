@@ -13,16 +13,15 @@ public class MaximumSubarray {
 		method2(nums);
 	}
 
-	private static void method2(int[] nums) {
 
+	private static void method2(int[] nums) {
 		int ans = Integer.MIN_VALUE;
 		int sum = 0;
 		for (int i = 0; i < nums.length; i++) {
 			if (sum < 0)
 				sum = 0;
-			if (sum + nums[i] > ans) {
+			if (sum + nums[i] > ans)
 				ans = sum + nums[i];
-			}
 			sum += nums[i];
 		}
 		System.out.println(ans);
