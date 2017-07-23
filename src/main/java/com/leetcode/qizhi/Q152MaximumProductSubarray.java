@@ -1,9 +1,9 @@
-package Q152MaximumProductSubarray;
+package com.leetcode.qizhi;
 
 /**
  * Created by qizhi on 2017/4/16.
  */
-public class MaximumProductSubarray {
+public class Q152MaximumProductSubarray {
 	public static void main(String[] args) {
 		int[] nums = {-1,0,-2,2};
 		method2(nums);

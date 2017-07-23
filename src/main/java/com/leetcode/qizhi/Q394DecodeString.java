@@ -1,11 +1,11 @@
-package Q394DecodeString;
+package com.leetcode.qizhi;
 
 import java.util.Stack;
 
 /**
  * Created by qizhi on 2017/4/18.
  */
-public class DecodeString {
+public class Q394DecodeString {
 	public static void main(String[] args) {
 		String s="3[a2[c]]";
 		String output=method1(s);

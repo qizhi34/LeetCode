@@ -1,9 +1,9 @@
-package Q53MaximumSubarray;
+package com.leetcode.qizhi;
 
 /**
  * Created by qizhi on 2017/4/16.
  */
-public class MaximumSubarray {
+public class Q53MaximumSubarray {
 	public static int main(String[] args) {
 		int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
 //		for (int i=0;i<nums.length;i++){
